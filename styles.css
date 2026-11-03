@@ -192,6 +192,22 @@ a {
   max-width: 620px;
 }
 
+.whatsapp-link {
+  margin: 0 0 18px;
+}
+
+.whatsapp-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: var(--white);
+  font-weight: 700;
+}
+
 .hero-actions {
   display: flex;
   gap: 16px;
